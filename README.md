@@ -47,27 +47,34 @@ Analizar la disminución de las ventas durante el último trimestre e identifica
 
 
 •	¿Cuál es el porcentaje de disminución de ventas totales de RetailPro durante el último trimestre en comparación con los anteriores?
+
 •	¿Qué productos presentaron la mayor disminución en ventas en el último trimestre?
+
 •	¿Qué segmentos de producto tuvieron la mayor disminución de ventas en el último trimestre?
+
 •	¿En qué ciudades, barrios y puntos de venta se concentran las mayores disminuciones?
+
 •	¿Qué vendedores presentan las mayores disminuciones en ventas y qué productos contribuyen a su menor desempeño?
+
 •	¿Existe una disminución en el número de clientes totales del último trimestre? 
 
 ## Herramientas utilizadas
 
 ### Herramienta	Uso en el proyecto
 SQL Server	Creación de la base de datos y las tablas, definición de relaciones y consultas para responder preguntas de negocio (JOIN, UNION, funciones de agregación).
+
 Power Query	Preparación, limpieza y transformación de datos: tratamiento de valores nulos y duplicados, revisión de tipos de datos y combinación de información.
+
 Power BI	Modelado de datos, medidas DAX, validación de resultados y diseño de visualizaciones para el análisis comercial.
 GitHub	Almacenamiento, versionado y documentación de scripts SQL, archivos de análisis y entregables.
 
 ## Estructura del repositorio
 La estructura del repositorio es la siguiente:
 RetailPro/
-ventas_tech_db.sql
-m4_consultas_negocio.sql
-m5_consultas_joins.sql 
-README.md
+├── ventas_tech_db.sql
+├── m4_consultas_negocio.sql
+├── m5_consultas_joins.sql
+└── README.md
 
 ## Modelo de datos
 La base de datos Ventas_Tech_DB contiene las tablas categorias, clientes, productos y ventas. Durante el desarrollo también se incorporó la tabla territorios y se realizaron ajustes en algunas tablas para ampliar la información disponible para las consultas.Las tablas se relacionan mediante claves primarias y foráneas. Estas relaciones permiten combinar la información para realizar consultas sobre ventas, clientes, productos, categorías y territorios.
@@ -75,12 +82,19 @@ La base de datos Ventas_Tech_DB contiene las tablas categorias, clientes, produc
 ## Descripción de los scripts SQL
 **ventas_tech_db.sql**
 Contiene las instrucciones para crear la base de datos Ventas_Tech_DB, definir las tablas y establecer sus relaciones. También incluye datos para trabajar con las consultas del proyecto.Importante: el script incluye una instrucción DROP DATABASE IF EXISTS, que elimina la base de datos si ya existe. Antes de ejecutarlo, revisa su contenido y asegúrate de no necesitar conservar los datos almacenados.
+
 **m4_consultas_negocio.sql**
 Incluye cuatro consultas para analizar el comportamiento comercial:
+
 •	Calcular las ventas mensuales, el número de pedidos y el ticket promedio.
+
 •	Identificar los cinco productos con mayor facturación.
+
 •	Identificar clientes recurrentes mediante el número de compras.
+
 •	Comparar las ventas mensuales con el promedio del período analizado.
+
+
 **m5_consultas_joins.sql**
 Contiene consultas que utilizan INNER JOIN, LEFT JOIN y UNION ALL para combinar información de diferentes tablas. Permite consultar información de ventas, clientes, productos, categorías y territorios, así como identificar clientes y productos que no registran ventas en los datos consultados. También incluye una consulta de resumen por canal en la que las etiquetas se asignan dentro de la consulta. Estas etiquetas no representan necesariamente canales almacenados en la tabla de ventas.
 
