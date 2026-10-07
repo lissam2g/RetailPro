@@ -45,18 +45,24 @@ Analizar la disminución de las ventas durante el último trimestre e identifica
 
 ### Preguntas de análisis
 
+•	¿Cómo evolucionaron las ventas mensuales y cuál fue la variación del último trimestre?
 
-•	¿Cuál es el porcentaje de disminución de ventas totales de RetailPro durante el último trimestre en comparación con los anteriores?
+•	¿Cómo se comparan las ventas de cada mes con el promedio del período?
 
-•	¿Qué productos presentaron la mayor disminución en ventas en el último trimestre?
+•	¿Cuáles son los productos con mayor facturación?
 
-•	¿Qué segmentos de producto tuvieron la mayor disminución de ventas en el último trimestre?
+•	¿Qué productos explican principalmente la disminución de las ventas?
 
-•	¿En qué ciudades, barrios y puntos de venta se concentran las mayores disminuciones?
+•	¿Qué clientes son recurrentes y cómo cambió su comportamiento de compra?
 
-•	¿Qué vendedores presentan las mayores disminuciones en ventas y qué productos contribuyen a su menor desempeño?
+•	¿Qué categorías de productos presentan mayores diferencias en sus ventas?
 
-•	¿Existe una disminución en el número de clientes totales del último trimestre? 
+•	¿Qué territorios presentan diferencias en los resultados de ventas?
+
+•	¿Cuál es el porcentaje de disminución de las ventas totales de RetailPro durante el último trimestre en comparación con los períodos anteriores?
+
+•	¿Existe una disminución en el número de clientes que registran compras durante el período analizado?
+
 
 ## Herramientas utilizadas
 
