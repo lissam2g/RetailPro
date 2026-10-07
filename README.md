@@ -26,14 +26,26 @@ Analizar la disminución de las ventas durante el último trimestre e identifica
 
 
 **Objetivos específicos**
+
+
 •	Diseñar un modelo de datos relacional con sus tablas y relaciones.
+
 •	Analizar la evolución de las ventas mensuales y compararla con el promedio.
+
 •	Identificar los productos con mayor facturación.
+
 •	Reconocer clientes recurrentes.
+
 •	Explorar otros factores que puedan estar relacionados con la variación de las ventas, según la información disponible.
+
 •	Preparar y limpiar los datos con Power Query.
+
 •	Construir visualizaciones y medidas con DAX en Power BI.
+
+
 ### Preguntas de análisis
+
+
 •	¿Cuál es el porcentaje de disminución de ventas totales de RetailPro durante el último trimestre en comparación con los anteriores?
 •	¿Qué productos presentaron la mayor disminución en ventas en el último trimestre?
 •	¿Qué segmentos de producto tuvieron la mayor disminución de ventas en el último trimestre?
