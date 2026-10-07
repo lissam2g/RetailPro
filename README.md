@@ -17,9 +17,14 @@ Proyecto académico de Data Analytics que analiza el comportamiento de las venta
 RetailPro es una empresa del sector retail que registró una caída en sus ventas durante el último trimestre. El proyecto enfocado en analizar dicha disminución e identificar los factores relacionados con este comportamiento. El proyecto incluye la creación de una base de datos, la elaboración de consultas SQL y el uso de herramientas para preparar, modelar y visualizar los datos.
 Pregunta principal del proyecto:
 ¿Por qué las ventas totales de RetailPro disminuyeron durante el último trimestre y qué productos contribuyeron principalmente a esta disminución?
+
 ### Objetivos
 **Objetivo general**
+
+
 Analizar la disminución de las ventas durante el último trimestre e identificar los productos que contribuyeron principalmente a esta variación.
+
+
 **Objetivos específicos**
 •	Diseñar un modelo de datos relacional con sus tablas y relaciones.
 •	Analizar la evolución de las ventas mensuales y compararla con el promedio.
