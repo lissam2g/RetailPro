@@ -71,9 +71,13 @@ GitHub	Almacenamiento, versionado y documentación de scripts SQL, archivos de a
 ## Estructura del repositorio
 La estructura del repositorio es la siguiente:
 RetailPro/
+
 ├── ventas_tech_db.sql
+
 ├── m4_consultas_negocio.sql
+
 ├── m5_consultas_joins.sql
+
 └── README.md
 
 ## Modelo de datos
@@ -101,10 +105,14 @@ Contiene consultas que utilizan INNER JOIN, LEFT JOIN y UNION ALL para combinar 
 ## Instrucciones de ejecución
 
 ### Requisitos previos
-•	SQL Server.
+•	SQL Server. 
+
 •	SQL Server Management Studio (SSMS).
+
 •	Power BI Desktop (para abrir el archivo .pbix).
+
 •	Los scripts SQL del repositorio.
+
 
 ### Pasos de ejecución
 1.	Abre SQL Server Management Studio y conéctate a tu instancia de SQL Server.
