@@ -70,6 +70,7 @@ GitHub	Almacenamiento, versionado y documentación de scripts SQL, archivos de a
 
 ## Estructura del repositorio
 La estructura del repositorio es la siguiente:
+
 RetailPro/
 
 ├── ventas_tech_db.sql
